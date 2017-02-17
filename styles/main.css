@@ -1,0 +1,124 @@
+
+/*-- #### Styles Pour La construction des pages #### */
+
+body {
+  color: black;
+  text-align: left;
+}
+
+
+header {
+  background-color: #FF8C00;
+  min-height: 20vh;
+}
+
+
+nav {
+  border: 1px solid green;
+}
+
+nav ul {
+  border: 1px solid red;
+  display: flex;
+justify-content: space-between;
+}
+
+
+nav li {
+
+}
+
+
+footer {
+  background-color: #FF8C00;
+  overflow: hidden;
+  min-height: 20vh;
+}
+
+.previous,
+.next {
+
+  width: 120px;
+}
+
+.previous {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.bee {
+  float: left;
+  max-width: 160px;
+  min-width: 100px;
+}
+
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ol li {
+  border : 10px solid #black;
+  color: #black;
+
+  width : 160px;
+  margin : 6px;
+}
+
+li img {
+  width : 100%;
+}
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+ text-transform: uppercase;
+ font-size: 2em;
+
+}
+
+#colors li {
+  height : 160px;
+  width : 160px;
+  border-radius: 8px;
+  color : #fff;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+#color-1 {
+ background-color: yellow;
+}
+
+#color-2 {
+ background-color: khaki;
+}
+
+#color-3 {
+ background-color: gold;
+}
+
+#color-4 {
+ background-color: darkorange;
+}
+#color-5 {
+ background-color: red;
+}
+#color-6 {
+ background-color: black;
+}
+
+video {
+  max-width: 600px;
+  margin: 10px;
+  text-align: left;
+}
